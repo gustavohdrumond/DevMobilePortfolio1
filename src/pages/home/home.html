@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar color="primary">
+
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item (click)="showToast1('Calendário')">
+    <ion-icon name='calendar'></ion-icon>
+    Calendário
+    </ion-item>
+
+    <ion-item (click)="showToast2('Alarme')">
+    <ion-icon name='alarm'></ion-icon>
+    Alarme
+    </ion-item>
+
+    <ion-item (click)="showToast3('Câmera')">
+    <ion-icon name='camera'></ion-icon>
+    Câmera
+    </ion-item>
+
+    <ion-item (click)="showToast4('Ligações')">
+    <ion-icon name='call'></ion-icon>
+    Ligações
+    </ion-item>
+
+    <ion-item (click)="showToast5('Contatos')">
+    <ion-icon name='contacts'></ion-icon>
+    Contatos
+    </ion-item>
+
+</ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="secondary">
+  <ion-title>Portfólio - Gustavo Leão</ion-title>
+  </ion-toolbar>
+  </ion-footer>
